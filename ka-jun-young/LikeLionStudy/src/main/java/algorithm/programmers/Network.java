@@ -41,10 +41,10 @@ public class Network {
     }
 
     public static void main(String[] args) {
-        int n = 3;
 //        int n = 3;
-        int[][] computer = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
-//        int[][] computer = {{1, 1, 0}, {1, 1, 1}, {0, 1, 1}};
+        int n = 3;
+//        int[][] computer = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
+        int[][] computer = {{1, 1, 0}, {1, 1, 1}, {0, 1, 1}};
         System.out.println(solution(n, computer));
     }
 }
